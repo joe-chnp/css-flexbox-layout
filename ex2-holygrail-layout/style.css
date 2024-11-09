@@ -1,1 +1,48 @@
 /* Start coding here */
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    height: 100vh;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.header {
+    background-color: teal;
+    width: 100vw;
+    height: 10%;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    height: 80%;
+    .nav {
+        background-color: orange;
+        flex: 1;
+    }
+    .content {
+        background-color: orange;
+        flex: 2;
+    }
+    .ad {
+        background-color: orange;
+        flex: 1; 
+    }
+}
+
+.footer {
+    background-color: khaki;
+    width: 100vw;
+    height: 10%;
+}
